@@ -1,0 +1,9 @@
+{
+  "name": "Pharma City Login",
+  "short_name": "Pharma",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0B4EA2"
+}
+
