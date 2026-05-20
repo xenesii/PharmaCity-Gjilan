@@ -1,0 +1,64 @@
+name: pharmacity
+description: PharmaCity Gjilan Flutter Application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.6.12
+  firebase_storage: ^12.4.10
+  firebase_messaging: ^15.2.10
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+
+  # Routing
+  go_router: ^14.6.3
+
+  # Google Sign In
+  google_sign_in: ^6.2.1
+
+  # Location
+  geolocator: ^13.0.2
+  geocoding: ^3.0.0
+
+  # Map
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+  # UI & Utils
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  image_picker: ^1.1.2
+  url_launcher: ^6.3.1
+  shared_preferences: ^2.3.5
+  path_provider: ^2.1.5
+  connectivity_plus: ^6.1.5
+  sqflite: ^2.4.2
+  flutter_local_notifications: ^18.0.1
+  uuid: ^4.5.1
+
+  # New dependencies for redesign
+  google_fonts: ^6.1.0
+  font_awesome_flutter: ^10.6.0
+  badges: ^3.1.2
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
